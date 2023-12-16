@@ -1,0 +1,18 @@
+.top-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.top-listItem {
+  margin-right: 15px;
+  margin-left: 5px;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.top-list li{
+    text-decoration: none;
+}
