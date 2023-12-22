@@ -1,11 +1,14 @@
 import React from "react";
 import Header from "../../headers/header";
+import Content from "./content";
+
+import "../../styles/home.css";
 
 const Home = () => {
   return (
-    <div className="">
-      <h1>This is a home page.</h1>
+    <div className="home-page">
       <Header />
+      <Content />
     </div>
   );
 };
